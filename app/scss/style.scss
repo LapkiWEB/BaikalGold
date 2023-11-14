@@ -4,7 +4,88 @@
 @import 'fonts';
 
 // start header
+.header{
+  position: relative;
+  background-color: $white;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  // img{
+  //   width: 180px;
+  //   height: 150px;
+  // }
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  max-width: 750px;
+  width: 100%;
+  align-items: center;
+}
+
+.header__social {}
+
+.header__social-list {
+  display: inline-block;
+
+  &+.header__social-list {
+    margin-left: 30px;
+  }
+}
+
+.header__email,
+.header__phone {
+  margin: 0 50px;
+}
+
+.header__line {
+  padding: 25px;
+  background-color: $gold;
+}
+
+.header__line-wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header__line-link {
+  @extend %Mont-Regular;
+  color: $white;
+  font-size: 24px;
+  margin: 0 100px;
+  transition: all .3s;
+
+  &:hover {
+    color: $black;
+  }
+}
 
 // end header
 
+
+// start section onescreen
+.onescreen{
+  background-image: url('../images/content/main-screen.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  margin-top: -230px;
+  height: 100vh;
+}
+.onescreen__title {
+  padding-top: 250px;
+  text-transform: uppercase;
+  @extend %Mont-Regular;
+  font-size: 64px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+// end section onescreen
 @import 'media';

@@ -2,16 +2,40 @@
 // УБЕРИ SANS-SERIF ОН МОЖЕТ ЛОМАТЬ ШРИФТ
 // font-weight: normal; font-style: normal; !!!! Иначе ломается на ios!!!!
 
-// @font-face {
-//   font-family: 'AnonymousPro-Regular';
-//   src: url('../fonts/AnonymousPro-Regular.eot');
-//   src: local('☺'),
-//     url('../fonts/AnonymousPro-Regular.woff') format('woff'),
-//     url('../fonts/AnonymousPro-Regular.ttf') format('truetype'),
-//     url('../fonts/AnonymousPro-Regular.woff2') format('woff2');
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.eot');
+  src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Montserrat-Regular.otf') format('otf'),
+    url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg'),
+    url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+    url('../fonts/Montserrat-Regular.woff') format('woff'),
+    url('../fonts/Montserrat-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('../fonts/Montserrat-Medium.eot');
+  src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Montserrat-Medium.otf') format('otf'),
+    url('../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg'),
+    url('../fonts/Montserrat-Medium.ttf') format('truetype'),
+    url('../fonts/Montserrat-Medium.woff') format('woff'),
+    url('../fonts/Montserrat-Medium.woff2') format('woff2');
+}
+
+
+@font-face {
+  font-family: 'CormorantGaramond-Regular';
+  src: url('../fonts/CormorantGaramond-Regular.eot');
+  src: url('../fonts/CormorantGaramond-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CormorantGaramond-Regular.otf') format('otf'),
+    url('../fonts/CormorantGaramond-Regular.svg#CormorantGaramond-Regular') format('svg'),
+    url('../fonts/CormorantGaramond-Regular.ttf') format('truetype'),
+    url('../fonts/CormorantGaramond-Regular.woff') format('woff'),
+    url('../fonts/CormorantGaramond-Regular.woff2') format('woff2');
+}
+
 // @font-face {
 //   font-family: 'AnonymousPro-Bold';
 //   src: url('../fonts/AnonymousPro-Bold.eot');
