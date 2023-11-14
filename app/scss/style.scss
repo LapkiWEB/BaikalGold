@@ -88,4 +88,27 @@
 }
 
 // end section onescreen
+
+// start section about
+.about{
+  padding-top: 0;
+}
+.about__inner{
+  display: flex;
+  justify-content: space-between;
+}
+.about__item{
+  // width: 50%;
+}
+.about__item-img{
+  width: 738px;
+  // height: 766px;
+  // border-radius: 3px;
+}
+.about__item-text{
+  max-width: 738px;
+  width: 100%;
+  padding-left: 50px;
+}
+// end section about
 @import 'media';

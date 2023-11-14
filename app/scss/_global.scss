@@ -41,16 +41,28 @@ body {
   // margin: 0 auto;
   margin-bottom: 50px;
   max-width: fit-content;
+  text-transform: uppercase;
 }
 
-.main-btn{
-    @extend %Mont-Regular;
-    font-size: 20px;
-    color: $white;
-    transition: all .3s;
-    padding: 10px 20px;
-    border-radius: 3px;
-    background-color: $gold;
+.text {
+  font-size: 20px;
+  @extend %Mont-Regular;
+  color: $black;
+}
+
+.main-btn {
+  @extend %Mont-Regular;
+  font-size: 20px;
+  color: $white;
+  transition: all .3s;
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: $gold;
+  border: 1px solid transparent;
+}
+
+.section {
+  padding: 50px 0;
 }
 
 // ВЫЕЗЖАЮЩЕЕ МЕНЮ
