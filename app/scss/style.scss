@@ -4,10 +4,11 @@
 @import 'fonts';
 
 // start header
-.header{
+.header {
   position: relative;
   background-color: $white;
 }
+
 .header__wrapper {
   display: flex;
   justify-content: space-between;
@@ -70,14 +71,21 @@
 
 
 // start section onescreen
-.onescreen{
+.onescreen {
   background-image: url('../images/content/main-screen.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
   margin-top: -230px;
-  height: 100vh;
+  // height: 100vh;
+  height: 960px;
+
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -230px;
 }
+
 .onescreen__title {
   padding-top: 250px;
   text-transform: uppercase;
@@ -90,25 +98,80 @@
 // end section onescreen
 
 // start section about
-.about{
-  padding-top: 0;
+.about {
+  // padding-top: 0;
 }
-.about__inner{
+
+.about__inner {
   display: flex;
   justify-content: space-between;
 }
-.about__item{
+
+.about__item {
   // width: 50%;
 }
-.about__item-img{
+
+.about__item-img {
   width: 738px;
   // height: 766px;
   // border-radius: 3px;
 }
-.about__item-text{
+
+.about__item-text {
   max-width: 738px;
   width: 100%;
   padding-left: 50px;
 }
+
 // end section about
+
+// start section individual
+
+.individual__text {
+  margin-bottom: 30px;
+}
+.individual__btn{
+  margin-bottom: 50px;
+}
+
+.individual__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.individual__item-title {
+  @extend %Cormorant;
+  text-align: right;
+  font-size: 96px;
+  background: linear-gradient(270deg, #B7B295 0%, rgba(255, 255, 255, 0.00) 100%);
+  padding: 10px 50px;
+  height: fit-content;
+  text-transform: uppercase;
+}
+.individual__item-left{
+  position: relative;
+  z-index: 1;
+  margin-right: -200px;
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.individual__item-text{
+
+  max-width: 500px;
+  width: 100%;
+  padding-right: 30px;
+}
+.individual__item-right{
+ max-width: 935px;
+ width: 100%;
+ height: 700px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+// end section individual
 @import 'media';

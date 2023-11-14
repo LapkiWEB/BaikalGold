@@ -10,4 +10,14 @@ $(function () {
       $('.menu__btn').removeClass('active');
     }
   }));
+
+
+  $('.slider__wrapper').slick({
+    dots: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 4000,
+  });
+
 })
+
