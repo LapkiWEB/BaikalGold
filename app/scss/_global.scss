@@ -5,6 +5,7 @@ body {
   color: $black;
   background-color: $white;
   font-size: 20px;
+  // line-height: 26px;
   position: relative;
   overflow-x: hidden;
   margin: 0 auto;
@@ -81,6 +82,7 @@ body {
   border: 1px solid transparent;
   cursor: pointer;
   width: fit-content;
+  text-transform: uppercase;
 }
 
 .section {
