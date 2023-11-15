@@ -15,12 +15,6 @@
   align-items: center;
 }
 
-.header__logo {
-  // img{
-  //   width: 180px;
-  //   height: 150px;
-  // }
-}
 
 .header__inner {
   display: flex;
@@ -30,7 +24,6 @@
   align-items: center;
 }
 
-.header__social {}
 
 .header__social-list {
   display: inline-block;
@@ -98,18 +91,12 @@
 // end section onescreen
 
 // start section about
-.about {
-  // padding-top: 0;
-}
 
 .about__inner {
   display: flex;
   justify-content: space-between;
 }
 
-.about__item {
-  // width: 50%;
-}
 
 .about__item-img {
   width: 738px;
@@ -307,6 +294,14 @@
 .equipment__box-text {
   text-transform: uppercase;
   text-align: center;
+}
+
+.price {
+  padding-top: 0;
+}
+
+.price__text {
+  margin-bottom: 50px;
 }
 
 // end section equipment
