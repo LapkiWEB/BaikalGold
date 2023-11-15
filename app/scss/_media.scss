@@ -46,6 +46,7 @@
 
   .onescreen__title {
     font-size: 60px;
+    padding-top: 170px;
   }
 
   // .individual__item-right {
@@ -117,6 +118,27 @@
   }
 }
 
+@media(max-width: 1300px) {
+  .footer__inner {
+    flex-wrap: wrap;
+  }
+
+  .footer__logo {
+    display: block;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .footer__item {
+    order: 1;
+  }
+
+  .lapki-web {
+    text-align: left;
+    margin-left: 20px;
+  }
+}
+
 @media(max-width: 1100px) {
   .container {
     padding: 0 80px;
@@ -155,6 +177,7 @@
 
   .onescreen__title {
     font-size: 50px;
+    padding-top: 140px;
   }
 
   .adv__img {
@@ -177,9 +200,9 @@
 
 // ВЕРТИКАЛЬ ВНИЗ
 @media(max-height: 900px) {
-  .onescreen {
-    height: 140vh;
-  }
+  // .onescreen {
+  //   height: 140vh;
+  // }
 
 }
 
@@ -233,19 +256,23 @@
     grid-template-columns: 1fr;
     grid-template-rows: 50vw 50vw 50vw;
   }
-  .request__wrapper{
+
+  .request__wrapper {
     flex-wrap: wrap;
     max-width: 300px;
     width: 100%;
     margin: 0 auto;
   }
-  .request__inner{
+
+  .request__inner {
     margin-right: 0;
   }
-  .request__item-text{
+
+  .request__item-text {
     height: 150px;
   }
-  .request__item{
+
+  .request__item {
     margin-bottom: 20px;
   }
 }
@@ -259,6 +286,15 @@
     font-size: 16px;
   }
 
+  .onescreen {
+    height: 700px;
+  }
+
+  .onescreen__title {
+    font-size: 50px;
+    padding-top: 90px;
+  }
+
   // .title {
   //   font-size: 24px;
   // }
@@ -270,11 +306,17 @@
       height: 60px;
     }
   }
+
+  .equipment__box {
+    width: 160px;
+    margin: 0;
+    margin-bottom: 50px;
+  }
 }
 
 @media(max-width: 600px) {
   .container {
-    padding: 0 20px;
+    padding: 0 15px;
   }
 
   .title {
@@ -292,11 +334,12 @@
   }
 
   .onescreen__title {
-    font-size: 36px;
+    font-size: 30px;
     text-align: center;
-    max-width: 300px;
+    max-width: 400px;
     margin: 0 auto;
     margin-bottom: 30px;
+
   }
 
   .main-btn__wrapper {
@@ -323,7 +366,12 @@
   .individual__item-right {
     height: 66vw;
   }
-  .request__box{
+
+  .request__box {
     padding: 0;
   }
+    .close__btn {
+      top: -30px;
+      right: 33px;
+    }
 }

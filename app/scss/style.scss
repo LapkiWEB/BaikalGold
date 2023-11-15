@@ -5,8 +5,12 @@
 
 // start header
 .header {
-  position: relative;
+  // position: relative;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
   background-color: $white;
+
 }
 
 .header__wrapper {
@@ -69,14 +73,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
-  margin-top: -230px;
   // height: 100vh;
   height: 960px;
 
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
-  margin-top: -230px;
+  // margin-top: -230px;
 }
 
 .onescreen__title {
@@ -234,7 +237,9 @@
 .add__btn {
   margin-top: 50px;
 }
-
+.add__text{
+  margin-bottom: 10px;
+}
 // end section adv
 
 // start section emblems
@@ -369,7 +374,7 @@
     padding: 15px 20px;
     width: 100%;
     border: none;
-  
+
   }
 }
 
@@ -418,4 +423,52 @@
 
 
 // end section request
+
+// start section footer
+.footer {
+  padding-bottom: 50px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.footer__item,
+.footer__menu,
+.footer__contacts {
+  margin: 50px 20px 0 20px;
+  
+}
+
+// .footer__menu{
+//   margin-top: 50px;
+// }
+.footer__menu-list {
+  margin-bottom: 20px;
+}
+
+.footer__contacts-phone,
+.footer__contacts-email,
+.footer__contacts-telegram {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.footer__social-list {
+  display: inline-block;
+
+  &+.footer__social-list {
+    margin-left: 30px;
+  }
+}
+
+.lapki-web {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+
+// end section footer
 @import 'media';
