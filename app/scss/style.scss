@@ -407,17 +407,11 @@
 .request__btn-wrapper {
 
   .request__btn {
-    // padding: 15px 30px;
     cursor: pointer;
 
     &::before {
       display: none;
     }
-  }
-
-  button {
-    // color: $text;
-    border: none;
   }
 }
 

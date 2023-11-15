@@ -56,10 +56,7 @@ body {
   @extend %Mont-Regular;
   font-size: 36px;
   line-height: 49px;
-  // padding: 0px 35px;
-  // border-bottom: 2px solid $blue;
   text-align: center;
-  // margin: 0 auto;
   margin-bottom: 50px;
   max-width: fit-content;
   text-transform: uppercase;
@@ -79,10 +76,16 @@ body {
   padding: 10px 20px;
   border-radius: 3px;
   background-color: $gold;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   cursor: pointer;
   width: fit-content;
   text-transform: uppercase;
+  transition: all .3s;
+  &:hover{
+    background-color: $white;
+      border: 2px solid $gold;
+    color: $black;
+  }
 }
 
 .section {
