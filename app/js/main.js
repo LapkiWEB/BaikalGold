@@ -19,5 +19,28 @@ $(function () {
     autoplaySpeed: 4000,
   });
 
+
+  $('.emblems__inner').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1600,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+    ]
+  });
+
 })
 

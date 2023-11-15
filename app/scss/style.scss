@@ -244,8 +244,70 @@
   justify-content: center;
 }
 
-.add__btn{
+.add__btn {
   margin-top: 50px;
 }
+
 // end section adv
+
+// start section emblems
+.emblems__item {
+  padding: 0 20px;
+}
+
+// end section emblems
+
+// start section equipment
+.equipment__text {
+  margin-bottom: 30px;
+}
+
+.equipment__inner {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.equipment__item {
+  // background-image: url('../images/content/equipment-img1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 477px;
+  width: 100%;
+  height: 715px;
+  margin: 0 5px;
+  margin-bottom: 30px;
+}
+
+.equipment__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.equipment__box {
+  width: 243px;
+  margin: 0 15px;
+  margin-bottom: 50px;
+}
+
+.equipment__box-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+
+  .equipment__box-img--img {
+    width: 100px;
+    height: 100px;
+
+  }
+}
+
+.equipment__box-text {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+// end section equipment
 @import 'media';

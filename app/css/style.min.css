@@ -657,6 +657,64 @@ body {
   margin-top: 50px;
 }
 
+.emblems__item {
+  padding: 0 20px;
+}
+
+.equipment__text {
+  margin-bottom: 30px;
+}
+
+.equipment__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.equipment__item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 477px;
+  width: 100%;
+  height: 715px;
+  margin: 0 5px;
+  margin-bottom: 30px;
+}
+
+.equipment__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.equipment__box {
+  width: 243px;
+  margin: 0 15px;
+  margin-bottom: 50px;
+}
+
+.equipment__box-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.equipment__box-img .equipment__box-img--img {
+  width: 100px;
+  height: 100px;
+}
+
+.equipment__box-text {
+  text-transform: uppercase;
+  text-align: center;
+}
+
 @media (max-width: 1800px) {
   .corporate__inner {
     display: -ms-grid;
@@ -666,6 +724,10 @@ body {
     -ms-grid-rows: 270px 270px;
     grid-template-rows: 270px 270px;
     gap: 20px;
+  }
+  .equipment__wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 @media (max-width: 1600px) {
@@ -747,6 +809,16 @@ body {
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .equipment__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .equipment__item {
+    max-width: 251px;
+    height: 376px;
   }
 }
 @media (max-width: 1100px) {
@@ -854,6 +926,17 @@ body {
 @media (max-width: 600px) {
   .container {
     padding: 0 20px;
+  }
+  .title {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .main-btn {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .add__btn {
+    margin-top: 30px;
   }
   .onescreen__title {
     font-size: 36px;

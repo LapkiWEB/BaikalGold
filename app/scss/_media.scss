@@ -5,6 +5,10 @@
     grid-template-rows: 270px 270px;
     gap: 20px;
   }
+
+  .equipment__wrapper {
+    flex-wrap: wrap;
+  }
 }
 
 @media(max-width: 1600px) {
@@ -100,6 +104,16 @@
   .adv__inner {
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+
+  .equipment__inner {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .equipment__item {
+    max-width: 251px;
+    height: 376px;
   }
 }
 
@@ -238,6 +252,20 @@
 @media(max-width: 600px) {
   .container {
     padding: 0 20px;
+  }
+
+  .title {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .main-btn {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .add__btn {
+    margin-top: 30px;
   }
 
   .onescreen__title {
