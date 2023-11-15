@@ -96,6 +96,11 @@
   .corporate__item-big {
     grid-row-start: inherit;
   }
+
+  .adv__inner {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 @media(max-width: 1100px) {
@@ -136,6 +141,15 @@
 
   .onescreen__title {
     font-size: 50px;
+  }
+
+  .adv__img {
+    height: 80px;
+
+    .adv__img-img {
+      width: 80px;
+      height: 80px;
+    }
   }
 }
 
@@ -211,6 +225,14 @@
   // .title {
   //   font-size: 24px;
   // }
+  .adv__img {
+    height: 60px;
+
+    .adv__img-img {
+      width: 60px;
+      height: 60px;
+    }
+  }
 }
 
 @media(max-width: 600px) {

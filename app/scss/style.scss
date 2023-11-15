@@ -193,7 +193,6 @@
 }
 
 .corporate__item {
-  // background-image: url('../images/content/corporate2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -202,10 +201,48 @@
 .corporate__item-big {
   grid-row-start: span 2;
 }
-.corporate__wraaper-btn{
+
+.corporate__wraaper-btn {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 // end section corporate
+
+// start section adv
+.adv__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adv__item {
+  width: 340px;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.adv__img {
+  margin-bottom: 30px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+
+  .adv__img-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.adv__text {
+  text-align: center;
+}
+
+.adv__wrapper-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+// end section adv
 @import 'media';
